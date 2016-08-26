@@ -1,0 +1,29 @@
+{
+  "name": "browser-history",
+  "version": "1.0.0",
+  "main": "src/browser-history.js",
+  "description": "simple functional wrapper around the browser history API",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "6.1.2",
+    "mocha": "3.0.2",
+    "snazzy": "4.0.1",
+    "devtool": "2.2.0"
+  },
+  "scripts": {
+    "lint": "snazzy",
+    "pretest": "npm run lint",
+    "test": "devtool node_modules/mocha/bin/_mocha -qc -- test.js"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "describe",
+      "it",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach"
+    ]
+  }
+}
