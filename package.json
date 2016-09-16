@@ -1,7 +1,7 @@
 {
   "name": "browser-history",
   "version": "1.0.0",
-  "main": "src/browser-history.js",
+  "main": "src/history.js",
   "description": "simple functional wrapper around the browser history API",
   "dependencies": {},
   "devDependencies": {
